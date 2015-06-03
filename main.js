@@ -50,7 +50,7 @@ var gbpCodePrice = items.map(function(element){
 gbpCodeName = gbpCodeName.filter(isNotZero);
 gbpCodePrice = gbpCodePrice.filter(isNotZero);
 
-document.getElementById(id = "answer3").innerHTML = gbpCodeName.concat(" $".concat(gbpCodePrice));
+document.getElementById(id = "answer3").innerHTML = gbpCodeName.concat(" £".concat(gbpCodePrice));
 
 
 //Answer 4 Code
